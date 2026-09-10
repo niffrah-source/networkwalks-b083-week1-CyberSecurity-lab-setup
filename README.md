@@ -39,15 +39,15 @@ configure network settings on virtualbox (create NATNetwork in 10.0.0.0/24)
  
 
 ## step 6 - troubleshoot connectivity issues
-check if your network settings are correct.
-Check if you created NATNetwork properly 
-2. Check if all your network settings are correct 
-3. Check that no other VM on the same NAT Network is using 10.0.0.2 
-4. Run below 3 commands & restart your Kali Linux
-sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0 
-sudo nmcli connection down "Wired connection 1" 
-sudo nmcli connection up "Wired connection 1"
-5. Restart your Virtual machines & your main OS.
+* **check if your network settings are correct.
+* **Check if you created NATNetwork properly 
+* ** Check if all your network settings are correct 
+* ** Check that no other VM on the same NAT Network is using 10.0.0.2
+ * ** Run below 3 commands & restart your Kali Linux
+* **sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0 
+* **sudo nmcli connection down "Wired connection 1" 
+* **sudo nmcli connection up "Wired connection 1"
+* ** Restart your Virtual machines & your main OS.
 
 
 .
