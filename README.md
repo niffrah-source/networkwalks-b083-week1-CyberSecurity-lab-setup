@@ -26,8 +26,8 @@ Before setting up Kali Linux, 7-Zip was installed to extract the downloaded Kali
 download virtualBox on your laptop.
 virtualBox was installed to manage virtual machine used on kali linux.
 https://www.virtualbox.org/
- ![VirtualBox Setup](Screenshot 2026-09-10 204227.png)
-![VirtualBox Setup](Screenshot 2026-09-10 233430.png)
+* ** ![VirtualBox Setup](Screenshot 2026-09-10 204227.png)
+* ** ![VirtualBox Setup](Screenshot 2026-09-10 233430.png)
 
 ## Step 3 - Configure NAT
 configure network settings on virtualbox (create NATNetwork in 10.0.0.0/24)
