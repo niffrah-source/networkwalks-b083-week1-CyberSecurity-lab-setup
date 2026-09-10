@@ -27,11 +27,12 @@ download virtualBox on your laptop.
 virtualBox was installed to manage virtual machine used on kali linux.
 https://www.virtualbox.org/
 ![VirtualBox Setup](Screenshot%202026-09-10%20204227.png)
- ![VirtualBox Setup](Screenshot%202026-09-10%233430.png)
+![VirtualBox Setup](Screenshot%202026-09-10%20%233430.png)
 
 ## Step 3 - Configure NAT
 configure network settings on virtualbox (create NATNetwork in 10.0.0.0/24)
 ![VirtualBox Setup](Screenshot%202026-09-10%202338.png)
+
 ![VirtualBox Setup](Screenshot%202026-09-10%202408.png)
 
 ## Step 4 - Download and import kali linux
@@ -40,7 +41,7 @@ configure network settings on virtualbox (create NATNetwork in 10.0.0.0/24)
 
  ## Step 5 - setup the IP configuration of kali linux
  The Kali Linux virtual machine was configured to use NAT networking. After configuration, the IP settings were checked to verify network connectivity and troubleshoot any connectivity issues.
- ![VirtualBox Setup](Screenshot%202026-09-10%225456.png)
+ ![VirtualBox Setup](Screenshot%202026-09-10%20225456.png)
 
 ## step 6 - troubleshoot connectivity issues
 * **check if your network settings are correct.
