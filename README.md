@@ -48,6 +48,9 @@ configure network settings on virtualbox (create NATNetwork in 10.0.0.0/24)
 * **sudo nmcli connection down "Wired connection 1" 
 * **sudo nmcli connection up "Wired connection 1"
 * ** Restart your Virtual machines & your main OS.
+## Challenges and Troubleshooting
+During the lab setup, I encountered a minor network connectivity issue while manually configuring the IPv4 address in Kali Linux. I checked the network configuration and troubleshooting steps to identify the cause of the connectivity issue and successfully established network connectivity.
+
 
 
 .
